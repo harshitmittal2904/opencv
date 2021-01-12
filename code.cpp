@@ -15,7 +15,7 @@ Mat rotate(Mat src, double angle){
 }
  
 int main(){
-    Mat src = imread("apple.jpg");           
+    Mat src = imread("skydiving.jpg");           
     Mat dst;      
     dst = rotate(src, 30);    
     imshow("src", src);          
